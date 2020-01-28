@@ -1,0 +1,25 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page isELIgnored="false" %>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+<form action="login" method="post">
+
+    <label for="userName">Username:</label>
+    <br>
+    <input type="text" name="user" id="userName">
+    <br>
+    <label for="password"> Password: </label>
+    <br>
+    <input type="password" name="password" id="password">
+    <br>
+    <label for="remember">Remember me?</label>
+    <input type="checkbox" name="remember" value="true" id="remember">
+    <br>
+    <input type="submit" value="Login">
+</form>
+</body>
+</html>

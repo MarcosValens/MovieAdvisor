@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MovieAdvisor:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>MovieAdvisor</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="19-MovieAdvisor-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="MovieAdvisor:war exploded" />
+    </root>
+  </artifact>
+</component>
