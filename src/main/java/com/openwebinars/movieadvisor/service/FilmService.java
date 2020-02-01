@@ -95,4 +95,8 @@ public class FilmService {
 	public Collection<Film> findAll() {
 		return filmDao.findAll();
 	}
+
+	public void save(Film film){
+		filmDao.insert(film);
+	}
 }

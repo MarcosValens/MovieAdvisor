@@ -42,7 +42,8 @@ public class FilmDaoImplDatabase implements FilmDao {
 
     @Override
     public void insert(Film film) {
-
+        Session session = sessionFactory.getCurrentSession();
+        session.save(film);
     }
 
     @Override
